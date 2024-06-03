@@ -48,12 +48,7 @@ app.engine('.hbs', exphbs.engine({ extname: '.hbs',
            
     }
 }));
-<<<<<<< HEAD
-// This Mabel first change
-
-=======
 // This Mabel thing
->>>>>>> 0c14db6f90ae483623ced51ebcbbf2755e47e7b9
 app.set('view engine', '.hbs');
 
 
