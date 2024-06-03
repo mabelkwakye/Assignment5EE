@@ -68,13 +68,10 @@ app.use(function(req,res,next){
     next();
    });
 
-<<<<<<< HEAD
 
-// This is for Portia
-=======
+
 // This Olubunmi's Comments
 
->>>>>>> d2fb693c07ad59e299e9eb6b268c3d2bb9e95d8f
 app.get('/', (req, res) => {
     res.render('home'); 
   });
@@ -93,7 +90,7 @@ app.get("/addStudent", (req, res) => {
 });
 
 
-
+// This is a comment by Portia
 app.get("/students", (req, res) => {    
         if(req.query.course){
             getStudentsByCourse(req.query.course).then(
