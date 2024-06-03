@@ -74,7 +74,7 @@ app.get('/', (req, res) => {
     res.render('home'); 
   });
   
-
+//this change is done by David
 app.get("/about", (req, res) => {
     res.render('about');
 });
