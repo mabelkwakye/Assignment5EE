@@ -114,6 +114,7 @@ app.get("/students", (req, res) => {
         }   
 });
 
+// This is for the courses
 app.get("/courses", (req, res) => {
         getCourses().then(
         function (data) {
