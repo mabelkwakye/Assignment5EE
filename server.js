@@ -129,7 +129,7 @@ app.get("/courses", (req, res) => {
             res.render("courses", {message: "no results"});
     });
 });
-
+// This is for the a new courses
 app.get("/course/:id", (req, res) => {
     getCourseById(req.params.id).then(
     function (data) {   
