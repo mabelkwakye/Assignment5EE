@@ -130,6 +130,8 @@ app.get("/courses", (req, res) => {
     });
 });
 // This is for the a new courses
+
+// This is for the course_id
 app.get("/course/:id", (req, res) => {
     getCourseById(req.params.id).then(
     function (data) {   
