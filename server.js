@@ -48,10 +48,8 @@ app.engine('.hbs', exphbs.engine({ extname: '.hbs',
            
     }
 }));
-// This Mabel
-// New change
-// another new change
-// This is Portia
+// This Mabel first change
+
 app.set('view engine', '.hbs');
 
 
@@ -72,7 +70,7 @@ app.use(function(req,res,next){
    });
 
 
-
+// This is for Portia
 app.get('/', (req, res) => {
     res.render('home'); 
   });
