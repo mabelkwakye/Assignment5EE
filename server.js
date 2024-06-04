@@ -59,7 +59,7 @@ app.set('view engine', '.hbs');
 // This is Portia's new change
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
+//This is David 1st input 
 app.use(express.static('public'));
 
 
